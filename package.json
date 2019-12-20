@@ -1,6 +1,6 @@
 {
   "name": "react-router-on-navigate",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "A simple component which returns a callback via the `onNavigate` prop when the user navigates using React Router",
   "main": "dist/main.js",
   "scripts": {

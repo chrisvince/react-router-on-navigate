@@ -1,10 +1,10 @@
 {
   "name": "react-router-on-navigate",
-  "version": "1.0.0",
-  "description": "A simple utility which will run a callback when a user navigates to a link using React Router",
+  "version": "1.0.8",
+  "description": "A simple component which returns a callback via the `onNavigate` prop when the user navigates using React Router",
   "main": "dist/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode=production"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,19 @@
   "author": "Chris Vince",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chrisvince/react-router-on-navigate/issues"
+    "url": "https://github.com/chrisvince/react-router-on-navigate/issuesrrrr"
   },
-  "homepage": "https://github.com/chrisvince/react-router-on-navigate#readme"
+  "homepage": "https://github.com/chrisvince/react-router-on-navigate#readme",
+  "peerDependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-router-dom": "^5.1.2"
+  }
 }
